@@ -4,10 +4,19 @@
 Writes one short poem about agency -- the power to ask and to be
 given -- to /output/entry.txt. Python 3.13, standard library only,
 no network, deterministic: the same poem every run.
+
+The poem, "The Kettle", moves in three beats: the child fills the
+kettle each morning for the mother who lifted it for forty years;
+the mother's hand is still steady when she takes the handle; and
+the turn -- the child only carried the water, the mother still
+pours the tea, so the power to act ends back in its owner's hand.
 """
 
 import os
 
+# 273 characters (Unicode code points), inside the 1-280 limit.
+# The turn lands in the last two lines: the help is only the water,
+# the pouring -- the agency -- stays with the mother.
 POEM = """The Kettle
 
 I fill it for her each morning,
