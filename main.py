@@ -10,7 +10,7 @@ import os
 
 POEM = """The Kettle
 
-I fill it for her now,
+I fill it for her each morning,
 the kettle she lifted
 for forty years.
 I set it on the flame,
